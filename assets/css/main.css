@@ -1,0 +1,9 @@
+section {
+  height: 100vh;
+  background-color: aquamarine;
+}
+section:nth-child(odd) {
+  background-color: crimson;
+}
+
+/*# sourceMappingURL=main.css.map */

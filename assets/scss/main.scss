@@ -1,0 +1,7 @@
+section {
+  height: 100vh;
+  background-color: aquamarine;
+  &:nth-child(odd) {
+    background-color: crimson;
+  }
+}
