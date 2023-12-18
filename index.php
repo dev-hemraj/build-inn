@@ -51,7 +51,28 @@
         <div class="swiper-button-prev" id="swiper-button-prev"></div>
 
         <div class="swiper-pagination"></div>
-        <div class="teset"></div>
+        <style>
+            #indicator{
+                position: absolute;
+                z-index: 999;
+                background:red;
+                height:10px;
+                width:10%;
+                transition: width 0.3s ease;
+            }
+
+            .indicator_wrapper{
+                position: absolute;
+                z-index: 9999;
+                width: 500px;
+                height: 11px;
+                bottom:0;
+            }
+        </style>
+        <div class="indicator_wrapper">
+            <div id="indicator"></div>
+        </div>
+
     </div>
 </section>
 <!-- ==================   HERO Section Close   ===================== -->
