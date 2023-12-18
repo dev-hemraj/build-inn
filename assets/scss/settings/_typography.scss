@@ -1,0 +1,11 @@
+.heading {
+  h2 {
+    font-family: $gilroy-light;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    span {
+      font-weight: $fw-bold;
+    }
+  }
+}

@@ -1,0 +1,387 @@
+// Hero Section
+
+.hero {
+  position: relative;
+  height: calc(100vh - 20px);
+  @include media-breakpoint-down(md) {
+    height: 73vh;
+  }
+  &__slide {
+    width: 100%;
+    height: 100%;
+    &__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($colorBlack, 0.4);
+      }
+      &__caption {
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include media-breakpoint-down(md) {
+          top: 25%;
+          left: unset;
+          transform: unset;
+        }
+        h1 {
+          text-align: center;
+          color: $colorWhite;
+          font-size: 4rem;
+          font-family: $gilroy-regular;
+          letter-spacing: 2px;
+          @include media-breakpoint-down(md) {
+            font-size: 3rem;
+          }
+          span {
+            font-family: $gilroy-bold;
+            display: block;
+          }
+        }
+        .heroBtn {
+          text-align: center;
+          margin-top: 25px;
+          &__link {
+            @extend %siteBtn;
+            @extend %blackBtn;
+          }
+        }
+      }
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: unset;
+      bottom: 80px;
+      color: $colorWhite;
+    }
+    .swiper-button-next {
+      right: 48%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(md) {
+        right: 40%;
+      }
+      &::after {
+        content: "\f054";
+        font-family: "Font Awesome 6 Free";
+        font-weight: $fw-black;
+        font-size: 2.8rem;
+      }
+    }
+    .swiper-button-prev {
+      left: 48%;
+      transform: translateX(-50%);
+      @include media-breakpoint-down(md) {
+        left: 40%;
+      }
+      &::after {
+        content: "\f104";
+        font-family: "Font Awesome 6 Free";
+        font-weight: $fw-black;
+        font-size: 2.8rem;
+      }
+    }
+
+    .swiper-pagination {
+      bottom: 0;
+      padding-block: 15px;
+      color: $colorWhite;
+      font-size: 2rem;
+      text-align: right;
+      padding-right: 50px;
+      span {
+        color: $colorWhite;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: $colorBlack;
+        height: 100%;
+        width: calc(100% - 40%);
+        z-index: -1;
+      }
+    }
+  }
+}
+
+// PROJECTOS SECTION
+.projectos {
+  @include sectionSpaceMargin;
+  &__heading {
+    text-align: center;
+  }
+
+  &__tabs {
+    .nav-link {
+      background-color: transparent;
+      color: $colorBlack;
+      font-weight: $fw-regular;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      &.active {
+        color: $colorBlack;
+        font-weight: $fw-medium;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__content {
+    &__pane {
+      .project__inner {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        .tabItem {
+          height: 600px;
+          position: relative;
+          flex: 1;
+          @include media-breakpoint-down(md) {
+            flex: 1 0 100%;
+            margin-bottom: 25px;
+            height: 450px;
+          }
+          &::after {
+            content: "";
+            background-color: rgba($colorBlack, 0.3);
+            position: absolute;
+            inset: 0;
+            height: 100%;
+            width: 100%;
+          }
+          .tabImg {
+            height: 100%;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+          .tabText {
+            z-index: 3;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+            color: $colorWhite;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            h4 {
+              font-weight: $fw-semi-bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// About us section
+
+.about {
+  @include sectionSpaceMargin;
+
+  &__left {
+    position: relative;
+    &__backimage {
+      img {
+        min-height: 400px;
+        max-height: 400px;
+        object-fit: cover;
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+    }
+    &__frontimage {
+      position: absolute;
+      top: 80px;
+      left: 20px;
+      @include media-breakpoint-down(md) {
+        position: relative;
+        top: unset;
+        left: unset;
+      }
+      img {
+        min-height: 400px;
+        max-height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
+  &__right {
+    margin-top: 80px;
+    @include media-breakpoint-down(md) {
+      margin-top: unset;
+    }
+    &__heading {
+      margin-bottom: 20px;
+      span {
+        font-weight: $fw-bold;
+      }
+    }
+
+    .aboutBtn {
+      margin-top: 20px;
+      .aboutBtnLink {
+        @extend %siteBtn;
+        @extend %blackBtn;
+      }
+    }
+  }
+}
+
+// Como Trabalhhamos
+.howWork {
+  @include sectionSpaceMargin;
+  .heading {
+    margin-bottom: 50px;
+  }
+  .row {
+    .col-md-3 {
+      border-right: 1px solid $colorBlack;
+      &:last-child {
+        border-right: unset;
+      }
+    }
+  }
+  &__item {
+    position: relative;
+    min-height: 500px;
+    max-height: 500px;
+    cursor: pointer;
+    &:hover {
+      .howWork__item__img img {
+        visibility: visible;
+        opacity: 1;
+      }
+      .howWork__item__img::after {
+        height: 100%;
+        width: 100%;
+      }
+      .howWork__item__text h4 {
+        color: $colorWhite;
+      }
+    }
+    &__img {
+      height: 500px;
+      position: relative;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        visibility: hidden;
+        opacity: 0;
+        @include slowAnim;
+        @include media-breakpoint-down(md) {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba($colorBlack, 0.4);
+        height: 0;
+        width: 100%;
+        @include slowAnim;
+        @include media-breakpoint-down(md) {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    &__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h4 {
+        color: $colorBlack;
+        font-size: 1.7rem;
+        font-weight: $fw-semi-bold;
+        text-transform: uppercase;
+        @include media-breakpoint-down(md) {
+          color: $colorWhite;
+        }
+      }
+    }
+  }
+}
+
+// ctaHome
+
+.ctaHome {
+  &__box {
+    position: relative;
+    @include sectionSpaceMargin;
+    @include marginBottom;
+    background-image: linear-gradient(
+        rgba($colorBlack, 0.3),
+        rgba($colorBlack, 0.3)
+      ),
+      url(../images/home-cta-bg.jpg);
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba($colorBlack, 0.3);
+      z-index: -1;
+    }
+    &__info {
+      text-align: center;
+      h3 {
+        color: $colorWhite;
+        font-family: $gilroy-regular;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        span {
+          font-family: $gilroy-semi-bold;
+          display: block;
+        }
+      }
+      p {
+        color: $colorWhite;
+        padding-top: 18px;
+      }
+      .ctaBtn {
+        margin-top: 40px;
+        &__link {
+          @extend %siteBtn;
+          @extend %blackBtn;
+        }
+      }
+    }
+  }
+}

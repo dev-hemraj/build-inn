@@ -1,7 +1,24 @@
-section {
-  height: 100vh;
-  background-color: aquamarine;
-  &:nth-child(odd) {
-    background-color: crimson;
-  }
-}
+// Libraries
+@import "libraries/vendor";
+
+// Setting
+@import "settings/variables";
+@import "settings/reset";
+@import "settings/mixin";
+@import "settings/typography";
+@import "settings/utilities";
+@import "settings/animation";
+
+// Objects
+@import "objects/buttons";
+
+// Shared
+@import "shared/header";
+@import "shared/footer";
+
+// Pages
+
+@import "pages/home-page";
+@import "pages/contactos";
+@import "pages/sobrenos";
+@import "pages/servicos";

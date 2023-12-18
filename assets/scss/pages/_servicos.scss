@@ -1,0 +1,25 @@
+.workHow {
+  @include sectionSpaceMargin;
+  .heading {
+    margin-bottom: 40px;
+  }
+  &__right {
+    padding: 40px;
+    h3 {
+      font-family: $gilroy-light;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      span {
+        font-family: $gilroy-bold;
+      }
+    }
+    .aboutBtn {
+      margin-top: 40px;
+      .aboutBtnLink {
+        @extend %siteBtn;
+        @extend %blackBtn;
+      }
+    }
+  }
+}

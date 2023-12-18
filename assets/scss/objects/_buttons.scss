@@ -1,0 +1,15 @@
+%siteBtn {
+  padding: 10px 30px;
+  font-family: $montserrat;
+  font-weight: $fw-regular;
+}
+
+%blackBtn {
+  background-color: $colorBlack;
+  color: $colorWhite;
+  text-transform: uppercase;
+  font-size: 2rem;
+  @include media-breakpoint-down(md) {
+    font-size: 1.7rem;
+  }
+}

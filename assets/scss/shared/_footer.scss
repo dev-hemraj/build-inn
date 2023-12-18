@@ -1,0 +1,13 @@
+.footer {
+  background-color: $colorBlack;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    img {
+      width: 100%;
+      max-width: 180px;
+    }
+  }
+}
