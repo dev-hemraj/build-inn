@@ -83,9 +83,8 @@ var swiper = new Swiper(".hero__slide", {
 
 // Serviços Slider
 
-var swiper = new Swiper(".services__wrap__slide", {
+var swiper1 = new Swiper(".services__wrap__slide", {
   slidesPerView: 3,
-  // centeredSlides: true,
   spaceBetween: 70,
   grabCursor: true,
   autoplay: {
@@ -100,21 +99,23 @@ var swiper = new Swiper(".services__wrap__slide", {
     nextEl: "#swiper-button-next2",
     prevEl: "#swiper-button-prev2",
   },
-  // Execute this function when the slide changes
   on: {
     slideChange: function () {
-      // Get the current slide index
-      var currentIndex = swiper.activeIndex;
-      var totalSlides = swiper.slides.length - 1; // Total number of slides
+      var swiper = this;
+      var currentIndex = swiper.realIndex;
+      var totalSlides = swiper.slides.length - 1;
 
-      // Calculate width percentage based on index
+      console.log("Current Index:", currentIndex);
+      console.log("Total Slides:", totalSlides);
+
       var widthPercentage = (currentIndex / totalSlides) * 100;
-
-      // Set width of the indicator
       var indicator = document.getElementById("indicator");
+
       if (currentIndex === totalSlides) {
+        console.log("Reached last slide.");
         indicator.style.width = "100%";
       } else {
+        console.log("Not on the last slide.");
         indicator.style.width = widthPercentage + "%";
       }
     },
