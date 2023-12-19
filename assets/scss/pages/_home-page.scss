@@ -116,6 +116,31 @@
         z-index: -1;
       }
     }
+    &__indicator {
+      position: absolute;
+      z-index: 9999;
+      width: 30%;
+      height: 2px;
+      bottom: 30px;
+      right: 20%;
+      background-color: $colorGray;
+      &::after {
+        content: "SCROLL";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20%;
+        color: $colorWhite;
+      }
+      #indicator {
+        position: absolute;
+        z-index: 999;
+        background: $colorWhite;
+        height: 3px;
+        width: 0;
+        transition: width 0.3s ease;
+      }
+    }
   }
 }
 

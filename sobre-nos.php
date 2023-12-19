@@ -7,7 +7,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Sobre nós</h2>
+                <div class="pageHeader__heading">
+                    <h2>Sobre nós</h2>
+                    <h3>Sobre nós</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -92,19 +95,78 @@
 </section>
 
 
-
 <!-- ==================   Services Section Open   ===================== -->
-<section>
+<section class="services">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                Services <h1>Coming soon...</h1>
+                <div class="heading">
+                    <h2>Serviços</h2>
+                </div>
             </div>
         </div>
     </div>
-</section>
-<!-- ==================   Services Section Close   ===================== -->
+    <div class="services__wrap">
+        <div class="swiper services__wrap__slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/project-1.jpg" alt="">
+                    <div class="swiper-slide-caption">
+                        <h3>CONSTRUÇÃO DE EMPREENDIMENTOS</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/project-2.jpg" alt="">
+                    <div class="swiper-slide-caption">
+                        <h3> REABILITAÇÃO</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
 
+                <div class="swiper-slide">
+                    <img src="assets/images/project-3.jpg" alt="">
+                    <div class="swiper-slide-caption">
+                        <h3> arquitectura de interiores</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/project-1.jpg" alt="">
+                    <div class="swiper-slide-caption">
+                        <h3>CONSTRUÇÃO DE EMPREENDIMENTOS</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/project-2.jpg" alt="">
+                    <div class="swiper-slide-caption">
+                        <h3> REABILITAÇÃO</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+        <div class="services__wrap__arrow">
+            <div class="swiper-button-next" id="swiper-button-next2">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev" id="swiper-button-prev2">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+        </div>
+
+        <div class="hero__slide__indicator">
+            <div id="indicator"></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ==================   Services Section Close   ===================== -->
 
 <!-- Two images -->
 <section class="twocol">

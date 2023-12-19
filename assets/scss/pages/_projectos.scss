@@ -1,0 +1,26 @@
+.projectosPage {
+  .projectos__content__pane {
+    .project__inner {
+      gap: 30px;
+      .tabItem {
+        flex: 1 0 25%;
+      }
+    }
+    &__pagination {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .page-link {
+        color: $colorBlack;
+        font-size: 2rem;
+        border: unset;
+        i {
+          color: $colorBlack;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>contactos</h2>
+                <div class="pageHeader__heading">
+                    <h2>contactos</h2>
+                    <h3>contactos</h3>
+                </div>
+
             </div>
         </div>
     </div>

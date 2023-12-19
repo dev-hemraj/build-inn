@@ -46,8 +46,7 @@ window.addEventListener("scroll", () => {
 //   },
 // });
 
-
-var swiper = new Swiper('.hero__slide', {
+var swiper = new Swiper(".hero__slide", {
   // Your Swiper configuration options
   autoplay: {
     delay: 2500,
@@ -57,7 +56,6 @@ var swiper = new Swiper('.hero__slide', {
     el: ".swiper-pagination",
     type: "fraction",
   },
-
   navigation: {
     nextEl: "#swiper-button-next",
     prevEl: "#swiper-button-prev",
@@ -73,11 +71,51 @@ var swiper = new Swiper('.hero__slide', {
       var widthPercentage = (currentIndex / totalSlides) * 100;
 
       // Set width of the indicator
-      var indicator = document.getElementById('indicator');
+      var indicator = document.getElementById("indicator");
       if (currentIndex === totalSlides) {
-        indicator.style.width = '100%';
+        indicator.style.width = "100%";
       } else {
-        indicator.style.width = widthPercentage + '%';
+        indicator.style.width = widthPercentage + "%";
+      }
+    },
+  },
+});
+
+// Serviços Slider
+
+var swiper = new Swiper(".services__wrap__slide", {
+  slidesPerView: 3,
+  // centeredSlides: true,
+  spaceBetween: 70,
+  grabCursor: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: "#swiper-button-next2",
+    prevEl: "#swiper-button-prev2",
+  },
+  // Execute this function when the slide changes
+  on: {
+    slideChange: function () {
+      // Get the current slide index
+      var currentIndex = swiper.activeIndex;
+      var totalSlides = swiper.slides.length - 1; // Total number of slides
+
+      // Calculate width percentage based on index
+      var widthPercentage = (currentIndex / totalSlides) * 100;
+
+      // Set width of the indicator
+      var indicator = document.getElementById("indicator");
+      if (currentIndex === totalSlides) {
+        indicator.style.width = "100%";
+      } else {
+        indicator.style.width = widthPercentage + "%";
       }
     },
   },

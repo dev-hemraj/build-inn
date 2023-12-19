@@ -40,10 +40,10 @@
                         <a href="servicos.php">Serviços</a>
                     </li>
                     <li>
-                        <a href="#">Projectos</a>
+                        <a href="projectos.php">Projectos</a>
                     </li>
                     <li>
-                        <a href="#">parede living</a>
+                        <a href="project-single.php">parede living</a>
                     </li>
                     <li>
                         <a href="contactos.php">contactos</a>

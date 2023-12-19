@@ -1,0 +1,45 @@
+// Page header
+
+.pageHeader {
+  height: 80dvh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  position: relative;
+  isolation: isolate;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba($colorBlack, 0.4);
+    z-index: -1;
+  }
+  &__heading {
+    position: relative;
+    h2 {
+      padding-bottom: 50px;
+      font-size: 4rem;
+      font-family: $gilroy-bold;
+      color: $colorWhite;
+      text-transform: uppercase;
+    }
+    h3 {
+      color: rgba($colorWhite, 0.2);
+      font-size: 8vw;
+      font-family: $gilroy-bold;
+      white-space: nowrap;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
