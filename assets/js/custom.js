@@ -83,7 +83,7 @@ var swiper = new Swiper(".hero__slide", {
 
 // Serviços Slider
 
-var swiper = new Swiper(".services__wrap__slide", {
+var swiper2 = new Swiper(".services__wrap__slide", {
   slidesPerView: 3,
   // centeredSlides: true,
   spaceBetween: 70,
