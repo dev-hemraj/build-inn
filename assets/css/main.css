@@ -12577,7 +12577,7 @@ p {
   margin-bottom: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/home-cta-bg.jpg);
   background-size: cover;
-  min-height: 635px;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12623,6 +12623,23 @@ p {
 .ctaHome__box__info .ctaBtn {
   margin-top: 40px;
 }
+.ctaHome .topRct {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #ffffff;
+  height: 150px;
+  width: 150px;
+}
+.ctaHome .btnRct {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #ffffff;
+  height: 150px;
+  width: 150px;
+}
+
 .contact__left {
   background-color: #000000;
   padding: 80px;

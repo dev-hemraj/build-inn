@@ -268,6 +268,7 @@
 
 <!-- ==================  CTA Section Open   ===================== -->
 <section class="ctaHome">
+
     <div class="container">
         <div class="row">
             <div class="col-12 ctaHome__box">
@@ -282,6 +283,9 @@
                     </div>
 
                 </div>
+
+                <div class="topRct"></div>
+                <div class="btnRct"></div>
             </div>
         </div>
     </div>
