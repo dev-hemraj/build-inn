@@ -12,6 +12,9 @@
   text-align: center;
   position: relative;
   isolation: isolate;
+  @include media-breakpoint-down(md) {
+    height: 35dvh;
+  }
   &::after {
     content: "";
     position: absolute;
@@ -29,6 +32,9 @@
       font-family: $gilroy-bold;
       color: $colorWhite;
       text-transform: uppercase;
+      @include media-breakpoint-down(down) {
+        font-size: 3rem;
+      }
     }
     h3 {
       color: rgba($colorWhite, 0.2);
@@ -40,6 +46,10 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
+      @include media-breakpoint-down(md) {
+        bottom: 50px;
+        font-size: 13vw;
+      }
     }
   }
 }

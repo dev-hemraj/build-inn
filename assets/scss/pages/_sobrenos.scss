@@ -4,11 +4,17 @@
   @include sectionSpaceMargin;
   &__box {
     padding: 40px;
+    @include media-breakpoint-down(md) {
+      padding: 15px;
+    }
     h3 {
       font-family: $gilroy-bold;
       font-size: 5rem;
       position: relative;
       margin-bottom: 25px;
+      @include media-breakpoint-down(md) {
+        font-size: 3.5rem;
+      }
       &::after {
         content: "";
         position: absolute;
@@ -25,9 +31,15 @@
 // Two images
 .twocol {
   @include sectionSpaceMargin;
+  @include media-breakpoint-down(md) {
+    margin-top: 80px;
+  }
   &__info {
     position: relative;
     margin: 50px;
+    @include media-breakpoint-down(md) {
+      margin: unset;
+    }
     img {
       width: 100%;
       object-fit: cover;
@@ -38,11 +50,17 @@
       right: 0;
       background-color: $colorWhite;
       padding: 40px;
+      @include media-breakpoint-down(md) {
+        padding: 20px;
+      }
 
       h3 {
         font-weight: $fw-semi-bold;
         font-size: 2rem;
         text-transform: uppercase;
+        @include media-breakpoint-down(md) {
+          font-size: 1.8rem;
+        }
       }
       .twoColBtn {
         margin-top: 40px;

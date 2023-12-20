@@ -2,6 +2,9 @@
   padding: 10px 30px;
   font-family: $montserrat;
   font-weight: $fw-regular;
+  @include media-breakpoint-down(down) {
+    padding: 5px 20px;
+  }
 }
 
 %blackBtn {

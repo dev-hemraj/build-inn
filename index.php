@@ -62,11 +62,11 @@
 <!-- ==================    Projectos Section Open   ===================== -->
 <section class="projectos">
     <div class="container-fluid">
-        <div class="projectos__heading heading">
+        <div class="projectos__heading heading" data-aos="fade-up" data-aos-duration="800">
             <h2>Projectos</h2>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 mt-5 p-0">
+            <div class="col-12 mt-5 p-md-0">
                 <ul class="projectos__tabs nav nav-pills mb-3 justify-content-center gap-5" id="pills-tab"
                     role="tablist">
                     <li class="nav-item" role="presentation">
@@ -166,24 +166,25 @@
 <!-- ==================   Sobre nós Section Open   ===================== -->
 <section class="about">
     <div class="container">
-        <div class="row g-5">
+        <div class="row">
             <div class="col-12 col-md-6">
                 <div class="about__left">
-                    <div class="about__left__backimage d-flex justify-content-md-end">
+                    <div class="about__left__backimage d-flex justify-content-md-end" data-aos="fade-up"
+                        data-aos-duration="800">
                         <img src="assets/images/about-back.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="about__left__frontimage">
+                    <div class="about__left__frontimage" data-aos="fade-down" data-aos-duration="800">
                         <img src="assets/images/about-front.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
                 <div class="about__right">
-                    <div class="about__right__heading heading">
+                    <div class="about__right__heading heading" data-aos="fade-up" data-aos-duration="800">
                         <h2>Sobre <span>nós</span></h2>
                     </div>
 
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="800">
                         A BUILD INN acompanha o desenvolvimento do mercado imobiliário em Portugal, sendo a ampliação e
                         consolidação de empresas com mais de 3 décadas de sucesso no mercado imobiliário de gama alta
                         (DIAS & CUNHA e MENDES & CUNHA); <br><br>
@@ -209,11 +210,11 @@
 <!-- ==================   Como Trabalhhamos Section Open   ===================== -->
 <section class="howWork">
     <div class="container">
-        <div class="heading">
+        <div class="heading" data-aos="fade-up" data-aos-duration="800">
             <h2>Como <span>Trabalhamos</span></h2>
         </div>
         <div class="row mt-5">
-            <div class="col-12 col-md-3 mb-3 mb-md-0 p-0">
+            <div class="col-12 col-md-3 mb-3 mb-md-0 p-md-0">
                 <div class="howWork__item">
                     <div class="howWork__item__img">
                         <img src="assets/images/how.jpg" alt="" class="img-fluid">
@@ -224,7 +225,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-3 mb-3 mb-md-0 p-0">
+            <div class="col-12 col-md-3 mb-3 mb-md-0 p-md-0">
                 <div class="howWork__item">
                     <div class="howWork__item__img">
                         <img src="assets/images/how.jpg" alt="" class="img-fluid">
@@ -234,7 +235,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3 mb-md-0 p-0">
+            <div class="col-12 col-md-3 mb-3 mb-md-0 p-md-0">
                 <div class="howWork__item">
                     <div class="howWork__item__img">
                         <img src="assets/images/how.jpg" alt="" class="img-fluid">
@@ -244,7 +245,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3 mb-md-0 p-0">
+            <div class="col-12 col-md-3 mb-3 mb-md-0 p-md-0">
                 <div class="howWork__item">
                     <div class="howWork__item__img">
                         <img src="assets/images/how.jpg" alt="" class="img-fluid">
@@ -270,7 +271,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 ctaHome__box">
-                <div class="ctaHome__box__info">
+                <div class="ctaHome__box__info" data-aos="fade-up" data-aos-duration="800">
                     <h3>
                         Contacte-nos e
                         <span>realize o seu projeto</span>

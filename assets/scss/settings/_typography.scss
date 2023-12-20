@@ -4,6 +4,9 @@
     font-size: 2.5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
+    @include media-breakpoint-down(md) {
+      font-size: 2.2rem;
+    }
     span {
       font-weight: $fw-bold;
     }

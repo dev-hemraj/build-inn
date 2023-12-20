@@ -1,7 +1,11 @@
 .singleTop {
   @include sectionSpaceMargin;
   &__left {
+    @include media-breakpoint-down(md) {
+      padding-right: unset;
+    }
     padding-right: 70px;
+
     ul {
       display: flex;
       justify-content: space-between;
@@ -39,6 +43,32 @@
 // Galeria
 .galeria {
   @include sectionSpaceMargin;
+  .heading {
+    margin-bottom: 50px;
+  }
+  &__inner {
+    @include media-breakpoint-down(md) {
+      height: 33vh;
+    }
+    position: relative;
+    height: 80vh;
+
+    .galeriaSwipe {
+      height: 100%;
+
+      .swiper-wrapper {
+        height: 100%;
+        .swiper-slide {
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+    }
+  }
 }
 
 // características
@@ -55,6 +85,10 @@
       height: 70px;
       width: 70px;
       margin-bottom: 20px;
+      @include media-breakpoint-down(md) {
+        height: 40px;
+        width: 40px;
+      }
     }
   }
   .singleBtn {

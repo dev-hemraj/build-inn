@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="pageHeader__heading">
+                <div class="pageHeader__heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>Projectos</h2>
                     <h3>Projectos</h3>
                 </div>
@@ -21,11 +21,11 @@
 <!-- ==================    Projectos Section Open   ===================== -->
 <section class="projectos projectosPage">
     <div class="container-fluid">
-        <div class="projectos__heading heading">
+        <div class="projectos__heading heading" data-aos="fade-up" data-aos-duration="800">
             <h2>Projectos</h2>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 mt-5 p-0">
+            <div class="col-12 mt-5 p-md-0">
                 <ul class="projectos__tabs nav nav-pills mb-3 justify-content-center gap-5" id="pills-tab"
                     role="tablist">
                     <li class="nav-item" role="presentation">
@@ -43,7 +43,7 @@
                     <div class="projectos__content__pane tab-pane fade show active" id="pills-actuais" role="tabpanel"
                         aria-labelledby="pills-home-tab" tabindex="0">
                         <div class="project__inner">
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -52,7 +52,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -61,7 +61,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
 
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -81,7 +81,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -90,7 +90,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>
@@ -100,7 +100,7 @@
                                     </h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -109,7 +109,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -118,7 +118,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>
@@ -151,7 +151,7 @@
                     <div class="projectos__content__pane tab-pane fade" id="pills-concluidos" role="tabpanel"
                         aria-labelledby="pills-concluidos-tab" tabindex="0">
                         <div class="project__inner">
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -160,7 +160,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -169,7 +169,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>
@@ -180,7 +180,7 @@
                                 </div>
                             </div>
 
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -189,7 +189,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -198,7 +198,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>
@@ -210,7 +210,7 @@
                             </div>
 
 
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-imag1.jpg" alt="">
                                 </div>
@@ -219,7 +219,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img2.jpg" alt="">
                                 </div>
@@ -228,7 +228,7 @@
                                     <h4>santo amaro palace</h4>
                                 </div>
                             </div>
-                            <div class="tabItem">
+                            <div class="tabItem" data-aos="fade-up" data-aos-duration="800">
                                 <div class="tabImg">
                                     <img src="assets/images/tab-img3.jpg" alt="">
                                 </div>

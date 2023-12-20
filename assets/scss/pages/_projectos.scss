@@ -2,8 +2,14 @@
   .projectos__content__pane {
     .project__inner {
       gap: 30px;
+      @include media-breakpoint-down(md) {
+        gap: unset;
+      }
       .tabItem {
         flex: 1 0 25%;
+        @include media-breakpoint-down(md) {
+          flex: 1 0 100%;
+        }
       }
     }
     &__pagination {
@@ -12,6 +18,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @include media-breakpoint-down(md) {
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
       .page-link {
         color: $colorBlack;
         font-size: 2rem;

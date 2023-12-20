@@ -11970,6 +11970,11 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+@media (max-width: 767.98px) {
+  .heading h2, .heading .h2 {
+    font-size: 2.2rem;
+  }
+}
 .heading h2 span, .heading .h2 span {
   font-weight: bold;
 }
@@ -11978,6 +11983,7 @@ p {
   padding: 10px 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  padding: 5px 20px;
 }
 
 .caracteristicas .singleBtn .singleLink, .singleTop__left .singleBtn .singleLink, .workHow__right .aboutBtn .aboutBtnLink, .twocol__info__detail .twoColBtn .twoColBtnLink, .ctaHome__box__info .ctaBtn__link, .about__right .aboutBtn .aboutBtnLink, .hero__slide__item__caption .heroBtn__link {
@@ -12005,6 +12011,11 @@ p {
   position: relative;
   isolation: isolate;
 }
+@media (max-width: 767.98px) {
+  .pageHeader {
+    height: 35dvh;
+  }
+}
 .pageHeader::after {
   content: "";
   position: absolute;
@@ -12023,6 +12034,7 @@ p {
   font-family: "Gilroy Bold";
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 .pageHeader__heading h3, .pageHeader__heading .h3 {
   color: rgba(255, 255, 255, 0.2);
@@ -12034,6 +12046,12 @@ p {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+@media (max-width: 767.98px) {
+  .pageHeader__heading h3, .pageHeader__heading .h3 {
+    bottom: 50px;
+    font-size: 13vw;
+  }
 }
 
 .header {
@@ -12307,6 +12325,11 @@ p {
   right: 20%;
   background-color: #292929;
 }
+@media (max-width: 767.98px) {
+  .hero__slide__indicator {
+    display: none;
+  }
+}
 .hero__slide__indicator::after {
   content: "SCROLL";
   position: absolute;
@@ -12362,7 +12385,7 @@ p {
   .projectos__content__pane .project__inner .tabItem {
     flex: 1 0 100%;
     margin-bottom: 25px;
-    height: 450px;
+    height: 300px;
   }
 }
 .projectos__content__pane .project__inner .tabItem::after {
@@ -12437,10 +12460,12 @@ p {
 }
 .about__right {
   margin-top: 80px;
+  padding-left: 50px;
 }
 @media (max-width: 767.98px) {
   .about__right {
     margin-top: unset;
+    padding-left: unset;
   }
 }
 .about__right__heading {
@@ -12594,6 +12619,11 @@ p {
   padding: 80px;
   text-align: center;
 }
+@media (max-width: 767.98px) {
+  .contact__left {
+    padding: 20px;
+  }
+}
 .contact__left p {
   color: #ffffff;
   text-align: center;
@@ -12628,6 +12658,11 @@ p {
 }
 .contact__right {
   padding: 80px;
+}
+@media (max-width: 767.98px) {
+  .contact__right {
+    padding: 20px;
+  }
 }
 .contact__right .heading {
   margin-bottom: 40px;
@@ -12667,11 +12702,21 @@ p {
 .points__box {
   padding: 40px;
 }
+@media (max-width: 767.98px) {
+  .points__box {
+    padding: 15px;
+  }
+}
 .points__box h3, .points__box .h3 {
   font-family: "Gilroy Bold";
   font-size: 5rem;
   position: relative;
   margin-bottom: 25px;
+}
+@media (max-width: 767.98px) {
+  .points__box h3, .points__box .h3 {
+    font-size: 3.5rem;
+  }
 }
 .points__box h3::after, .points__box .h3::after {
   content: "";
@@ -12691,9 +12736,19 @@ p {
     margin-top: 50px;
   }
 }
+@media (max-width: 767.98px) {
+  .twocol {
+    margin-top: 80px;
+  }
+}
 .twocol__info {
   position: relative;
   margin: 50px;
+}
+@media (max-width: 767.98px) {
+  .twocol__info {
+    margin: unset;
+  }
 }
 .twocol__info img {
   width: 100%;
@@ -12706,10 +12761,20 @@ p {
   background-color: #ffffff;
   padding: 40px;
 }
+@media (max-width: 767.98px) {
+  .twocol__info__detail {
+    padding: 20px;
+  }
+}
 .twocol__info__detail h3, .twocol__info__detail .h3 {
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .twocol__info__detail h3, .twocol__info__detail .h3 {
+    font-size: 1.8rem;
+  }
 }
 .twocol__info__detail .twoColBtn {
   margin-top: 40px;
@@ -12738,16 +12803,32 @@ p {
   max-height: 500px;
   object-fit: cover;
 }
+@media (max-width: 767.98px) {
+  .services__wrap__slide .swiper-slide img {
+    min-height: 400px;
+    max-height: 400px;
+  }
+}
 .services__wrap__slide .swiper-slide-caption {
   margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 767.98px) {
+  .services__wrap__slide .swiper-slide-caption {
+    padding: 6px;
+  }
+}
 .services__wrap__slide .swiper-slide-caption h3, .services__wrap__slide .swiper-slide-caption .h3 {
   font-weight: 600;
   font-size: 1.6rem;
   text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .services__wrap__slide .swiper-slide-caption h3, .services__wrap__slide .swiper-slide-caption .h3 {
+    font-size: 1.4rem;
+  }
 }
 .services__wrap__arrow .swiper-button-next,
 .services__wrap__arrow .swiper-button-prev {
@@ -12755,6 +12836,13 @@ p {
   bottom: -60px;
   font-size: 3rem;
   color: #000000;
+}
+@media (max-width: 767.98px) {
+  .services__wrap__arrow .swiper-button-next,
+  .services__wrap__arrow .swiper-button-prev {
+    bottom: -45px;
+    font-size: 2rem;
+  }
 }
 .services__wrap__arrow .swiper-button-next {
   right: 50px;
@@ -12786,10 +12874,17 @@ p {
 
 .workHow {
   margin-top: 100px;
+  padding-top: 30px;
 }
 @media (max-width: 767.98px) {
   .workHow {
     margin-top: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .workHow {
+    margin-top: 80px !important;
+    padding-top: unset;
   }
 }
 .workHow .heading {
@@ -12797,6 +12892,11 @@ p {
 }
 .workHow__right {
   padding: 40px;
+}
+@media (max-width: 767.98px) {
+  .workHow__right {
+    padding: 0;
+  }
 }
 .workHow__right h3, .workHow__right .h3 {
   font-family: "Gilroy Light";
@@ -12813,8 +12913,18 @@ p {
 .projectosPage .projectos__content__pane .project__inner {
   gap: 30px;
 }
+@media (max-width: 767.98px) {
+  .projectosPage .projectos__content__pane .project__inner {
+    gap: unset;
+  }
+}
 .projectosPage .projectos__content__pane .project__inner .tabItem {
   flex: 1 0 25%;
+}
+@media (max-width: 767.98px) {
+  .projectosPage .projectos__content__pane .project__inner .tabItem {
+    flex: 1 0 100%;
+  }
 }
 .projectosPage .projectos__content__pane__pagination {
   margin-top: 80px;
@@ -12822,6 +12932,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 767.98px) {
+  .projectosPage .projectos__content__pane__pagination {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
 .projectosPage .projectos__content__pane__pagination .page-link {
   color: #000000;
@@ -12843,6 +12959,11 @@ p {
 }
 .singleTop__left {
   padding-right: 70px;
+}
+@media (max-width: 767.98px) {
+  .singleTop__left {
+    padding-right: unset;
+  }
 }
 .singleTop__left ul {
   display: flex;
@@ -12880,6 +13001,30 @@ p {
     margin-top: 50px;
   }
 }
+.galeria .heading {
+  margin-bottom: 50px;
+}
+.galeria__inner {
+  position: relative;
+  height: 80vh;
+}
+@media (max-width: 767.98px) {
+  .galeria__inner {
+    height: 33vh;
+  }
+}
+.galeria__inner .galeriaSwipe {
+  height: 100%;
+}
+.galeria__inner .galeriaSwipe .swiper-wrapper {
+  height: 100%;
+}
+.galeria__inner .galeriaSwipe .swiper-wrapper .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .caracteristicas {
   margin-top: 100px;
@@ -12905,6 +13050,12 @@ p {
   height: 70px;
   width: 70px;
   margin-bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .caracteristicas__box img {
+    height: 40px;
+    width: 40px;
+  }
 }
 .caracteristicas .singleBtn {
   margin-top: 50px;

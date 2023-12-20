@@ -124,6 +124,9 @@
       bottom: 30px;
       right: 20%;
       background-color: $colorGray;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
       &::after {
         content: "SCROLL";
         position: absolute;
@@ -180,7 +183,7 @@
           @include media-breakpoint-down(md) {
             flex: 1 0 100%;
             margin-bottom: 25px;
-            height: 450px;
+            height: 300px;
           }
           &::after {
             content: "";
@@ -256,8 +259,10 @@
   }
   &__right {
     margin-top: 80px;
+    padding-left: 50px;
     @include media-breakpoint-down(md) {
       margin-top: unset;
+      padding-left: unset;
     }
     &__heading {
       margin-bottom: 20px;

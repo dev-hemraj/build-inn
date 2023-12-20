@@ -3,6 +3,9 @@
     background-color: $colorBlack;
     padding: 80px;
     text-align: center;
+    @include media-breakpoint-down(md) {
+      padding: 20px;
+    }
     p {
       color: $colorWhite;
       text-align: center;
@@ -38,6 +41,9 @@
   }
   &__right {
     padding: 80px;
+    @include media-breakpoint-down(md) {
+      padding: 20px;
+    }
     .heading {
       margin-bottom: 40px;
     }

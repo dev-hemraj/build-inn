@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="pageHeader__heading">
+                <div class="pageHeader__heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>Sobre nós</h2>
                     <h3>Sobre nós</h3>
                 </div>
@@ -21,24 +21,25 @@
 <!-- ==================   Sobre nós Section Open   ===================== -->
 <section class="about">
     <div class="container">
-        <div class="row g-5">
+        <div class="row">
             <div class="col-12 col-md-6">
                 <div class="about__left">
-                    <div class="about__left__backimage d-flex justify-content-md-end">
+                    <div class="about__left__backimage d-flex justify-content-md-end" data-aos="fade-up"
+                        data-aos-duration="800">
                         <img src="assets/images/about-back.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="about__left__frontimage">
+                    <div class="about__left__frontimage" data-aos="fade-down" data-aos-duration="800">
                         <img src="assets/images/about-front.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
                 <div class="about__right">
-                    <div class="about__right__heading heading">
+                    <div class="about__right__heading heading" data-aos="fade-up" data-aos-duration="800">
                         <h2>Sobre <span>nós</span></h2>
                     </div>
 
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="800">
                         A BUILD INN acompanha o desenvolvimento do mercado imobiliário em Portugal, sendo a ampliação e
                         consolidação de empresas com mais de 3 décadas de sucesso no mercado imobiliário de gama alta
                         (DIAS & CUNHA e MENDES & CUNHA); <br><br>
@@ -67,25 +68,25 @@
     <div class="container">
         <div class="row  ">
             <div class="col-12 col-md-3">
-                <div class="points__box">
+                <div class="points__box" data-aos="zoom-in-up" data-aos-duration="800">
                     <h3>01</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, magnam.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="points__box">
+                <div class="points__box" data-aos="zoom-in-up" data-aos-duration="800">
                     <h3>02</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, magnam.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="points__box">
+                <div class="points__box" data-aos="zoom-in-up" data-aos-duration="800">
                     <h3>03</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, magnam.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="points__box">
+                <div class="points__box" data-aos="zoom-in-up" data-aos-duration="800">
                     <h3>04</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, magnam.</p>
                 </div>
@@ -100,7 +101,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="heading">
+                <div class="heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>Serviços</h2>
                 </div>
             </div>
@@ -172,8 +173,8 @@
 <section class="twocol">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="twocol__left twocol__info">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <div class="twocol__left twocol__info" data-aos="fade-up" data-aos-duration="800">
                     <img src="assets/images/twocol-img1.jpg" class="img-fluid" alt="">
                     <div class="twocol__info__detail">
                         <h3> COMO TRABALHAMOS</h3>
@@ -183,8 +184,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <div class="twocol__left twocol__info">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <div class="twocol__left twocol__info" data-aos="fade-up" data-aos-duration="800">
                     <img src="assets/images/twocol-img2.jpg" class="img-fluid" alt="">
                     <div class="twocol__info__detail">
                         <h3> PROJECTOS</h3>

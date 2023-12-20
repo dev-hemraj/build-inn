@@ -84,9 +84,23 @@ var swiper = new Swiper(".hero__slide", {
 // Serviços Slider
 
 var swiper1 = new Swiper(".services__wrap__slide", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 70,
   grabCursor: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
@@ -121,3 +135,28 @@ var swiper1 = new Swiper(".services__wrap__slide", {
     },
   },
 });
+
+// Single page Gallery
+var swiper3 = new Swiper(".galeriaSwipe", {
+  slidesPerView: 1.2,
+  spaceBetween: 20,
+  slidesPerGroup: 1,
+  centeredSlides: true,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: "#swiper-button-next3",
+    prevEl: "#swiper-button-prev3",
+  },
+});
+
+AOS.init();

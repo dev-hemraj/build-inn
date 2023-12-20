@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="pageHeader__heading">
+                <div class="pageHeader__heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>contactos</h2>
                     <h3>contactos</h3>
                 </div>
@@ -23,17 +23,19 @@
         <div class="row">
             <div class="col-12 col-md-6 p-0">
                 <div class="contact__left">
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="800">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum saepe expedita dolorum
                         laudantium odit, accusantium deleniti vero eligendi recusandae voluptate reprehenderit nihil.
                     </p>
-                    <a class="contact__left__info" href="tel:+351 913 239 334">+351 913 239 334</a>
-                    <a class="contact__left__info" href="mailto:geral@buildinn.pt">geral@buildinn.pt</a>
+                    <a class="contact__left__info" href="tel:+351 913 239 334" data-aos="fade-up"
+                        data-aos-duration="800">+351 913 239 334</a>
+                    <a class="contact__left__info" href="mailto:geral@buildinn.pt" data-aos="fade-up"
+                        data-aos-duration="800">geral@buildinn.pt</a>
 
-                    <p class="contact__left__info">
+                    <p class="contact__left__info" data-aos="fade-up" data-aos-duration="800">
                         Avenida da República 928A
                         Loja 4 Parede</p>
-                    <ul class="social__link">
+                    <ul class="social__link" data-aos="fade-up" data-aos-duration="800">
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a href="#">
                                 <i class="fa-brands fa-instagram"></i>
@@ -46,10 +48,10 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="contact__right">
-                    <div class="heading">
+                    <div class="heading" data-aos="fade-up" data-aos-duration="800">
                         <h2>Entre <span>em contacto!</span></h2>
                     </div>
-                    <div class="row g-3">
+                    <div class="row g-3" data-aos="fade-up" data-aos-duration="800">
                         <div class="col-12">
                             <input type="text" class="form-control form-control-lg" placeholder="Nome"
                                 aria-label="Nome">
