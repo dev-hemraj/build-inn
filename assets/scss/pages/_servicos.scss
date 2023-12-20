@@ -5,6 +5,10 @@
   }
   &__wrap {
     position: relative;
+    margin-left: 80px;
+    @include media-breakpoint-down(md) {
+      margin-left: unset;
+    }
     &__slide {
       .swiper-slide {
         width: 100%;

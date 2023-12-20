@@ -1,10 +1,10 @@
 .singleTop {
   @include sectionSpaceMargin;
   &__left {
+    padding-right: 70px;
     @include media-breakpoint-down(md) {
       padding-right: unset;
     }
-    padding-right: 70px;
 
     ul {
       display: flex;
@@ -31,12 +31,17 @@
 // Location
 .location {
   @include sectionSpaceMargin;
-
   .heading {
     margin-bottom: 30px;
   }
   .locationMap {
     margin-top: 40px;
+    img {
+      width: 100%;
+      min-height: 600px;
+      max-height: 600px;
+      object-fit: cover;
+    }
   }
 }
 
@@ -47,11 +52,11 @@
     margin-bottom: 50px;
   }
   &__inner {
+    position: relative;
+    height: 80vh;
     @include media-breakpoint-down(md) {
       height: 33vh;
     }
-    position: relative;
-    height: 80vh;
 
     .galeriaSwipe {
       height: 100%;

@@ -31,8 +31,8 @@
         position: absolute;
         z-index: 100;
         top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 45%;
+        transform: translate(-45%, -50%);
         @include media-breakpoint-down(md) {
           top: 25%;
           left: unset;
@@ -41,11 +41,12 @@
         h1 {
           text-align: center;
           color: $colorWhite;
-          font-size: 4rem;
-          font-family: $gilroy-regular;
-          letter-spacing: 2px;
+          font-size: 4.1rem;
+          font-family: $gilroy-light;
+          letter-spacing: 4px;
+          text-transform: uppercase;
           @include media-breakpoint-down(md) {
-            font-size: 3rem;
+            font-size: 2.2rem;
           }
           span {
             font-family: $gilroy-bold;
@@ -153,7 +154,6 @@
   &__heading {
     text-align: center;
   }
-
   &__tabs {
     .nav-link {
       background-color: transparent;
@@ -212,10 +212,11 @@
             bottom: 15px;
             width: 100%;
             color: $colorWhite;
-            font-size: 2.5rem;
+            font-size: 1.6rem;
             text-transform: uppercase;
             h4 {
               font-weight: $fw-semi-bold;
+              font-size: 1.6rem;
             }
           }
         }
@@ -311,6 +312,7 @@
       }
       .howWork__item__text h4 {
         color: $colorWhite;
+        font-size: 2rem;
       }
     }
     &__img {

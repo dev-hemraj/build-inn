@@ -56,11 +56,8 @@
 
       h3 {
         font-weight: $fw-semi-bold;
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-transform: uppercase;
-        @include media-breakpoint-down(md) {
-          font-size: 1.8rem;
-        }
       }
       .twoColBtn {
         margin-top: 40px;

@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="pageHeader__heading" data-aos="fade-up" data-aos-duration="800">
-                    <h2>Sobre nós</h2>
+                    <h2>Sobre <span>nós</span></h2>
                     <h3>Sobre nós</h3>
                 </div>
             </div>

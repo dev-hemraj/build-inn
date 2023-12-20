@@ -1,18 +1,15 @@
 %siteBtn {
-  padding: 10px 30px;
+  padding: 15px 40px;
   font-family: $montserrat;
   font-weight: $fw-regular;
-  @include media-breakpoint-down(down) {
-    padding: 5px 20px;
+  @include media-breakpoint-down(md) {
+    padding: 10px 28px;
   }
 }
 
 %blackBtn {
   background-color: $colorBlack;
-  color: $colorWhite;
+  color: #fffdff;
   text-transform: uppercase;
-  font-size: 2rem;
-  @include media-breakpoint-down(md) {
-    font-size: 1.7rem;
-  }
+  font-size: 1.6rem;
 }

@@ -11976,26 +11976,25 @@ p {
   }
 }
 .heading h2 span, .heading .h2 span {
-  font-weight: bold;
+  font-family: "Gilroy Bold";
 }
 
 .caracteristicas .singleBtn .singleLink, .singleTop__left .singleBtn .singleLink, .workHow__right .aboutBtn .aboutBtnLink, .twocol__info__detail .twoColBtn .twoColBtnLink, .ctaHome__box__info .ctaBtn__link, .about__right .aboutBtn .aboutBtnLink, .hero__slide__item__caption .heroBtn__link {
-  padding: 10px 30px;
+  padding: 15px 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  padding: 5px 20px;
+}
+@media (max-width: 767.98px) {
+  .caracteristicas .singleBtn .singleLink, .singleTop__left .singleBtn .singleLink, .workHow__right .aboutBtn .aboutBtnLink, .twocol__info__detail .twoColBtn .twoColBtnLink, .ctaHome__box__info .ctaBtn__link, .about__right .aboutBtn .aboutBtnLink, .hero__slide__item__caption .heroBtn__link {
+    padding: 10px 28px;
+  }
 }
 
 .caracteristicas .singleBtn .singleLink, .singleTop__left .singleBtn .singleLink, .workHow__right .aboutBtn .aboutBtnLink, .twocol__info__detail .twoColBtn .twoColBtnLink, .ctaHome__box__info .ctaBtn__link, .about__right .aboutBtn .aboutBtnLink, .hero__slide__item__caption .heroBtn__link {
   background-color: #000000;
-  color: #ffffff;
+  color: #fffdff;
   text-transform: uppercase;
-  font-size: 2rem;
-}
-@media (max-width: 767.98px) {
-  .caracteristicas .singleBtn .singleLink, .singleTop__left .singleBtn .singleLink, .workHow__right .aboutBtn .aboutBtnLink, .twocol__info__detail .twoColBtn .twoColBtnLink, .ctaHome__box__info .ctaBtn__link, .about__right .aboutBtn .aboutBtnLink, .hero__slide__item__caption .heroBtn__link {
-    font-size: 1.7rem;
-  }
+  font-size: 1.6rem;
 }
 
 .pageHeader {
@@ -12030,20 +12029,27 @@ p {
 }
 .pageHeader__heading h2, .pageHeader__heading .h2 {
   padding-bottom: 50px;
-  font-size: 4rem;
-  font-family: "Gilroy Bold";
+  font-size: 4.8rem;
+  font-family: "Gilroy Light";
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 3rem;
+}
+.pageHeader__heading h2 span, .pageHeader__heading .h2 span {
+  font-family: "Gilroy Bold";
+}
+@media (max-width: 767.98px) {
+  .pageHeader__heading h2, .pageHeader__heading .h2 {
+    font-size: 3rem;
+  }
 }
 .pageHeader__heading h3, .pageHeader__heading .h3 {
   color: rgba(255, 255, 255, 0.2);
-  font-size: 8vw;
+  font-size: 200px;
   font-family: "Gilroy Bold";
   white-space: nowrap;
   text-transform: uppercase;
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -12166,7 +12172,7 @@ p {
   }
 }
 .header__right__hamburger span {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding-right: 20px;
@@ -12229,8 +12235,8 @@ p {
   position: absolute;
   z-index: 100;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 45%;
+  transform: translate(-45%, -50%);
 }
 @media (max-width: 767.98px) {
   .hero__slide__item__caption {
@@ -12242,13 +12248,14 @@ p {
 .hero__slide__item__caption h1, .hero__slide__item__caption .h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 4rem;
-  font-family: "Gilroy Regular";
-  letter-spacing: 2px;
+  font-size: 4.1rem;
+  font-family: "Gilroy Light";
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 @media (max-width: 767.98px) {
   .hero__slide__item__caption h1, .hero__slide__item__caption .h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 }
 .hero__slide__item__caption h1 span, .hero__slide__item__caption .h1 span {
@@ -12413,11 +12420,12 @@ p {
   bottom: 15px;
   width: 100%;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
 }
 .projectos__content__pane .project__inner .tabItem .tabText h4, .projectos__content__pane .project__inner .tabItem .tabText .h4 {
   font-weight: 600;
+  font-size: 1.6rem;
 }
 
 .about {
@@ -12510,6 +12518,7 @@ p {
 }
 .howWork__item:hover .howWork__item__text h4, .howWork__item:hover .howWork__item__text .h4 {
   color: #ffffff;
+  font-size: 2rem;
 }
 .howWork__item__img {
   height: 500px;
@@ -12768,13 +12777,8 @@ p {
 }
 .twocol__info__detail h3, .twocol__info__detail .h3 {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
-}
-@media (max-width: 767.98px) {
-  .twocol__info__detail h3, .twocol__info__detail .h3 {
-    font-size: 1.8rem;
-  }
 }
 .twocol__info__detail .twoColBtn {
   margin-top: 40px;
@@ -12792,6 +12796,12 @@ p {
 }
 .services__wrap {
   position: relative;
+  margin-left: 80px;
+}
+@media (max-width: 767.98px) {
+  .services__wrap {
+    margin-left: unset;
+  }
 }
 .services__wrap__slide .swiper-slide {
   width: 100%;
@@ -12991,6 +13001,12 @@ p {
 }
 .location .locationMap {
   margin-top: 40px;
+}
+.location .locationMap img {
+  width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  object-fit: cover;
 }
 
 .galeria {
