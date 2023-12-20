@@ -12577,7 +12577,7 @@ p {
   margin-bottom: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/home-cta-bg.jpg);
   background-size: cover;
-  min-height: 500px;
+  min-height: 635px;
   display: flex;
   justify-content: center;
   align-items: center;
