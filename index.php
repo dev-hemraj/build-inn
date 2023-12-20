@@ -85,32 +85,43 @@
                         aria-labelledby="pills-home-tab" tabindex="0">
                         <div class="project__inner">
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-imag1.jpg" alt="">
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>santo amaro palace</h4>
-                                </div>
+                                <a href="#" class="stretched-link">
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-imag1.jpg" alt="">
+                                    </div>
+
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>santo amaro palace</h4>
+
+                                    </div>
+                                </a>
+
+
                             </div>
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-img2.jpg" alt="">
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>santo amaro palace</h4>
-                                </div>
+                                <a href="#" class="stretched-link">
+
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-img2.jpg" alt="">
+                                    </div>
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>santo amaro palace</h4>
+                                    </div>
+                                </a>
                             </div>
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-img3.jpg" alt="">
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>varandas do atlântico
-                                    </h4>
-                                </div>
+                                <a href="#" class="stretched-link">
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-img3.jpg" alt="">
+                                    </div>
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>varandas do atlântico
+                                        </h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -118,37 +129,43 @@
                         aria-labelledby="pills-concluidos-tab" tabindex="0">
                         <div class="project__inner">
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-imag1.jpg" alt="">
+                                <a href="#" class="stretched-link">
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-imag1.jpg" alt="">
 
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>santo amaro palace</h4>
+                                    </div>
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>santo amaro palace</h4>
 
-                                </div>
+                                    </div>
+                                </a>
 
                             </div>
 
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-img2.jpg" alt="">
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>santo amaro palace</h4>
-                                </div>
+                                <a href="#" class="stretched-link">
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-img2.jpg" alt="">
+                                    </div>
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>santo amaro palace</h4>
+                                    </div>
+                                </a>
                             </div>
 
                             <div class="tabItem">
-                                <div class="tabImg">
-                                    <img src="assets/images/tab-img3.jpg" alt="">
-                                </div>
-                                <div class="tabText">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                    <h4>varandas do atlântico
-                                    </h4>
-                                </div>
+                                <a href="#" class="stretched-link">
+                                    <div class="tabImg">
+                                        <img src="assets/images/tab-img3.jpg" alt="">
+                                    </div>
+                                    <div class="tabText">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        <h4>varandas do atlântico
+                                        </h4>
+                                    </div>
+                                </a>
                             </div>
 
                         </div>

@@ -11995,6 +11995,11 @@ p {
   color: #fffdff;
   text-transform: uppercase;
   font-size: 1.6rem;
+  transition: all 0.5s ease-in-out;
+}
+.caracteristicas .singleBtn .singleLink:hover, .singleTop__left .singleBtn .singleLink:hover, .workHow__right .aboutBtn .aboutBtnLink:hover, .twocol__info__detail .twoColBtn .twoColBtnLink:hover, .ctaHome__box__info .ctaBtn__link:hover, .about__right .aboutBtn .aboutBtnLink:hover, .hero__slide__item__caption .heroBtn__link:hover {
+  outline: 1px solid #ffffff;
+  outline-offset: -4px;
 }
 
 .pageHeader {
@@ -12386,7 +12391,15 @@ p {
 .projectos__content__pane .project__inner .tabItem {
   height: 600px;
   position: relative;
+  overflow: hidden;
   flex: 1;
+}
+.projectos__content__pane .project__inner .tabItem a {
+  display: inline-block;
+  height: 100%;
+}
+.projectos__content__pane .project__inner .tabItem:hover .tabImg img {
+  transform: scale(1.2);
 }
 @media (max-width: 767.98px) {
   .projectos__content__pane .project__inner .tabItem {
@@ -12410,6 +12423,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all 2s ease-in-out;
 }
 .projectos__content__pane .project__inner .tabItem .tabText {
   z-index: 3;
