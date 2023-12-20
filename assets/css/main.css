@@ -12451,8 +12451,8 @@ p {
 }
 .about__left__frontimage {
   position: absolute;
-  top: 80px;
-  left: 20px;
+  top: 45px;
+  left: 95px;
 }
 @media (max-width: 767.98px) {
   .about__left__frontimage {
@@ -12462,8 +12462,8 @@ p {
   }
 }
 .about__left__frontimage img {
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 450px;
+  max-height: 450px;
   object-fit: cover;
 }
 .about__right {
