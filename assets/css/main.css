@@ -12017,7 +12017,7 @@ p {
 }
 @media (max-width: 767.98px) {
   .pageHeader {
-    height: 35dvh;
+    height: 40dvh;
   }
 }
 .pageHeader::after {
