@@ -12,9 +12,9 @@
   color: #fffdff;
   text-transform: uppercase;
   font-size: 1.6rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   &:hover {
-    outline: 1px solid $colorWhite;
+    outline: 1px solid rgba($colorWhite, 0.4);
     outline-offset: -4px;
   }
 }

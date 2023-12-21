@@ -11995,10 +11995,10 @@ p {
   color: #fffdff;
   text-transform: uppercase;
   font-size: 1.6rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .caracteristicas .singleBtn .singleLink:hover, .singleTop__left .singleBtn .singleLink:hover, .workHow__right .aboutBtn .aboutBtnLink:hover, .twocol__info__detail .twoColBtn .twoColBtnLink:hover, .ctaHome__box__info .ctaBtn__link:hover, .about__right .aboutBtn .aboutBtnLink:hover, .hero__slide__item__caption .heroBtn__link:hover {
-  outline: 1px solid #ffffff;
+  outline: 1px solid rgba(255, 255, 255, 0.4);
   outline-offset: -4px;
 }
 
@@ -12397,6 +12397,7 @@ p {
 .projectos__content__pane .project__inner .tabItem a {
   display: inline-block;
   height: 100%;
+  width: 100%;
 }
 .projectos__content__pane .project__inner .tabItem:hover .tabImg img {
   transform: scale(1.2);
