@@ -438,6 +438,10 @@
     border: 2px solid $colorWhite;
     height: 150px;
     width: 150px;
+    @include media-breakpoint-down(md) {
+      height: 70px;
+      width: 70px;
+    }
   }
   .btnRct {
     position: absolute;
@@ -446,5 +450,9 @@
     border: 2px solid $colorWhite;
     height: 150px;
     width: 150px;
+    @include media-breakpoint-down(md) {
+      height: 70px;
+      width: 70px;
+    }
   }
 }

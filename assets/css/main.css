@@ -12646,6 +12646,12 @@ p {
   height: 150px;
   width: 150px;
 }
+@media (max-width: 767.98px) {
+  .ctaHome .topRct {
+    height: 70px;
+    width: 70px;
+  }
+}
 .ctaHome .btnRct {
   position: absolute;
   bottom: 0;
@@ -12653,6 +12659,12 @@ p {
   border: 2px solid #ffffff;
   height: 150px;
   width: 150px;
+}
+@media (max-width: 767.98px) {
+  .ctaHome .btnRct {
+    height: 70px;
+    width: 70px;
+  }
 }
 
 .contact__left {
